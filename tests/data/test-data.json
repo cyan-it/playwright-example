@@ -1,0 +1,60 @@
+{
+    "baseUrl": "http://localhost:4400",
+
+    "user": {
+        "username": "example.user@cyan-it.de",
+        "password": "Test123!",
+        "fullName": "Example User"
+    },
+    "admin": {
+        "username": "example.admin@cyan-it.de",
+        "password": "Test123!",
+        "fullName": "Example Admin"
+    },
+    "users": [
+        {
+            "id": "705dfd1e-1ad5-471f-a6c6-6dbdbe83346c",
+            "fullName": "Example Admin"
+        }
+    ],
+    "project": {
+        "queryListItems": {
+            "records": [
+                {
+                    "id": 1226,
+                    "companyId": 100,
+                    "companyName": "Company 1",
+                    "companyAbbreviation": "Cmp1",
+                    "projectGroupId": 10,
+                    "projectGroupName": "Project Group 1",
+                    "projectGroupAbbreviation": "PG1",
+                    "projectGroupFullname": "Project Group 1(Pg1, Company 1 (Cmp1))",
+                    "parentCompanyId": null,
+                    "parentCompanyName": null,
+                    "name": "Project 1.1",
+                    "color": "#465bb3",
+                    "hourlyRate": null,
+                    "isActive": true
+                },
+                {
+                    "id": 1210,
+                    "companyId": 100,
+                    "companyName": "Company 1",
+                    "companyAbbreviation": "Cmp1",
+                    "projectGroupId": 10,
+                    "projectGroupName": "Project Group 1",
+                    "projectGroupAbbreviation": "PG1",
+                    "projectGroupFullname": "Project Group 1(PG1, Company 1 (Cmp1))",
+                    "parentCompanyId": null,
+                    "parentCompanyName": null,
+                    "name": "Project 1.2",
+                    "color": "#465bb3",
+                    "hourlyRate": null,
+                    "isActive": true
+                }
+            ],
+            "totalRecords": 119,
+            "filteredRecords": 4
+        }
+    }
+}
